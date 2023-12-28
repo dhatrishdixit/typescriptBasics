@@ -3,8 +3,15 @@ function addTwo(num: number):number{
     // return 'hello'
 }
 // do these in function as it is not good in interfering data types in functions ,whereas it is good in intervering datatypes in variables 
-addTwo(5)
+addTwo(5);
 
+function returnVal (val:number):number|string{
+      if(val < 5){
+        return val;
+      }
+      return 'val should be less than 5'
+}
+returnVal(8)
 function getUpperCase(val: string){
     return val.toUpperCase()
 };
