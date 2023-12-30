@@ -33,4 +33,24 @@ registerUser('dhatrish','dhatrish@gmail.com',9660057922)
 
 registerUser('hello','hello@gmail.com')
 
+const hero : string[] =[
+    'thor',
+    'ironMan',
+    'spiderMan'
+]
+
+const fruit : Array<string> = [
+    'mango',
+    'papaya',
+    'orange'
+]
+
+hero.map((hero,index):void =>{
+      console.log(`hero no${index} is ${hero}`)
+})
+
+function handleErr(errMsg:string):never {
+    throw new Error(errMsg)
+}
+
 export {}
