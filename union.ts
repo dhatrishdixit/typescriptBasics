@@ -11,3 +11,10 @@ const arr3 :string[] | number[] = [1,2,3,4];
 
 // for having a mix of both of these 
 const arr4 : (string | number)[] = [1,2,3,'4']
+
+
+// strict type 
+
+let seatAllotment : ('middle'|'aisle'|'window') ;
+seatAllotment = 'window';
+// seatAllotment = 'crew'
