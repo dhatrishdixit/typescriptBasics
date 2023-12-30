@@ -13,4 +13,5 @@ user.push({
 const TwoDimensionalArr: number[][] = [
     [2,3,4]
 ]
+
 export {}
